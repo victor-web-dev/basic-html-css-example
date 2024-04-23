@@ -54,18 +54,27 @@ main {
 .projects-section {
   width: 25%;
   padding: 20px;
+  margin-left: 20px;
+  height: 485px;
 }
 
 .projects-section h2 {
   padding: 10px 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border: 1px solid black;
 }
 
 .projects-section ul {
   text-align: left;
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
+  height: 360px;
+}
+
+.projects-section li {
+  margin-bottom: 10px;
+  font-size: large;
+  font-weight: 500;
 }
 
 .projects-section h2,
