@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My Website</title>
   </head>
   <body>
     <header>
       <h1>Web Site</h1>
       <!--Time tag is meant for machines to read-->
-      <time datetime="2024-04-21">Assignment day</time>
+      <!-- <time datetime="2024-04-21">Assignment day</time> -->
       <!-- Aria label is meant for accessibility -->
       <nav aria-label="Pages Navigation Menu">
         <ul>
@@ -20,18 +21,59 @@
       </nav>
     </header>
     <main>
-      <article>
+      <article class="article">
         <section id="first-section">
           <h2>First section header</h2>
-          <p>First section paragraph</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio
+            expedita laborum facilis autem doloremque soluta minus, ab
+            laboriosam officiis? Et quisquam nemo distinctio. Quia perferendis
+            rem mollitia quis ad.
+          </p>
         </section>
         <section id="second-section">
           <h3>Second section header</h3>
-          <p>Second section paragraph</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+            temporibus. Ab nam error atque hic aut! Laboriosam vel quam quas
+            maiores nesciunt ipsam dicta minus cumque commodi quaerat. Saepe,
+            perferendis.
+          </p>
+        </section>
+        <section>
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2024/03/08/09/55/cat-8620369_1280.png"
+              alt="image 1"
+            />
+          </figure>
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2023/12/15/21/47/cat-8451431_1280.jpg"
+              alt="image 2"
+            />
+          </figure>
+
+          <figure>
+            <img
+              src="https://cdn.pixabay.com/photo/2015/02/21/07/47/cat-644019_1280.jpg"
+              alt="image 3"
+            />
+          </figure>
         </section>
       </article>
+      <aside class="projects-section">
+        <h2>Projects</h2>
+        <ul>
+          <li>January 2024</li>
+          <li>February 2024</li>
+          <li>March 2024</li>
+          <li>April 2024</li>
+          <li>May 2024</li>
+        </ul>
+      </aside>
     </main>
-    <aside>
+    <!-- <aside>
       <nav aria-label="Content navigation menu">
         <h4>Article Sections</h4>
         <ul>
@@ -39,7 +81,7 @@
           <li><a href="#second-section">section 2</a></li>
         </ul>
       </nav>
-    </aside>
+    </aside> -->
     <footer>
       <p>&copy; All rights reserved</p>
     </footer>

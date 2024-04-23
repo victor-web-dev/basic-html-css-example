@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+body {
+  background-color: #ecf0f1;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: darkgrey;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  padding: 20px;
+}
+
+header nav {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+header nav ul {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+}
+
+.article,
+.projects-section {
+  display: inline-block;
+  border: 2px solid black;
+  vertical-align: bottom;
+  background-color: darkgrey;
+}
+
+.article {
+  width: 70%;
+  padding: 20px;
+}
+
+.projects-section {
+  width: 25%;
+  padding: 20px;
+}
+
+.projects-section h2 {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.projects-section ul {
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.projects-section h2,
+.projects-section ul {
+  background-color: lightgrey;
+}
+
+.article section {
+  padding: 10px;
+  background-color: lightgrey;
+  margin: 10px;
+}
+
+figure {
+  display: inline-block;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.projects-section h2,
+.projects-section ul,
+.article #first-section,
+.article #second-section,
+img {
+  border: 2px solid lightyellow;
+}
+
+footer {
+  background-color: lightgrey;
+  padding: 20px;
+  margin-top: 20px;
+  height: 100px;
+}
+
+footer p {
+  display: inline-block;
+  position: relative;
+  bottom: -90%;
+}
